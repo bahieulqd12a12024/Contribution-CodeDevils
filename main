@@ -1,0 +1,55 @@
+<div id="competitions" className="bg-gray-700 py-28 lg:py-40">
+        <div className="mx-auto flex w-11/12 grid-cols-2 flex-col gap-4  lg:grid ">
+          <article className="space-y-8 text-left text-2x1 ">
+            <h1 className="text-left text-6xl text-maroon  md:text-7xl">
+              Our Competitions
+            </h1>{" "}
+            <div className="mx-auto flex justify-center lg:hidden">
+              <Image
+                src={"/images/discord.jpeg" as string}
+                className="rounded-xl"
+                width={500}
+                height={500}
+                alt="Discord Community"
+              />
+            </div>
+            <p className="text-xl">
+              CodeDevils has established a thriving online community through our
+              dedicated Discord server. This digital space serves as the heart
+              of our interconnected ecosystem, where members converge to access
+              a multitude of resources and engage with fellow enthusiasts. By
+              joining our Discord server, you unlock a gateway to a wealth of
+              knowledge and opportunities for collaboration. Seamlessly bridging
+              the gap between members, our voice channels host engaging
+              workshops and meetings, allowing real-time interactions and
+              discussions. This online hub is not just a platform; it&apos;s a
+              dynamic space where the CodeDevils community comes alive,
+              fostering connections, knowledge sharing, and collective growth.
+              Elevate your CodeDevils experience by joining our Discord
+              community and staying seamlessly connected with our vibrant
+              network.
+            </p>
+            <div className="">
+              <Button
+                href={"https://discord.gg/eevXKjVmm2"}
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Join our Discord
+                <div className="sr-only">
+                  Click here to join our Discord server
+                </div>
+              </Button>
+            </div>
+          </article>
+          <div className=" mx-auto hidden lg:flex">
+            <Image
+              src={"/images/discord.jpeg" as string}
+              className="rounded-xl"
+              width={500}
+              height={500}
+              alt="Discord Community"
+            />
+          </div>
+        </div>
+      </div>
